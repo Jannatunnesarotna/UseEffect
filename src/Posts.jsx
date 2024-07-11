@@ -10,7 +10,7 @@ const Posts = () => {
     }, [])
     return (
         <div>
-            <h1>posts: {posts.length}</h1>
+            
             {
               posts.map(user=> <Post post={user}></Post>) 
             }
